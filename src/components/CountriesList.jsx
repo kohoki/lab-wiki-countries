@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 function CountriesList({list}) {
-    console.log(list)
+    
   return (
     <div>
         {list.map((element, index) => {
